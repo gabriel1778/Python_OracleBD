@@ -11,9 +11,9 @@ root.resizable(0,0)
 def MyClick():
     try:
         connection=cx_Oracle.connect(
-        user='inter',
-        password='bidu39cola',
-        dsn='10.204.166.109:1521/INTERP',
+        user='xxxx',
+        password='xxxxxxxx',
+        dsn='xx.xxx.xxx.xxx:xxxx/NOMBRE_BD',
         encoding='UTF-8'
         )
         print(connection.version)
