@@ -3,9 +3,9 @@ import cx_Oracle
 
 try:
     connection=cx_Oracle.connect(
-        user='inter',
-        password='bidu39cola',
-        dsn='10.204.166.109:1521/INTERP',
+        user='xxxxxx',
+        password='xxxxxxxx',
+        dsn='xx.xxx.xxx.xxx:XXXX/XXXX',
         encoding='UTF-8'
 
     )
