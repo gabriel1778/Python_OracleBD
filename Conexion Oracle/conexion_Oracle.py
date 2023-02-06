@@ -5,7 +5,7 @@ try:
     connection=cx_Oracle.connect(
         user='xxxxxx',
         password='xxxxxxxx',
-        dsn='xx.xxx.xxx.xxx:XXXX/XXXX',
+        dsn='xx.xxx.xxx.xxx:XXXX/NOMBRE_BD',
         encoding='UTF-8'
 
     )
